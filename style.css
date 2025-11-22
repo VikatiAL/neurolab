@@ -1,0 +1,207 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-weight: inherit;
+	font-style: inherit;
+	font-size: 100%;
+	font-family: inherit;
+	vertical-align: baseline;
+}
+/* remember to define focus styles! */
+:focus {
+	outline: 0;
+}
+body {
+	line-height: 1;
+	color: black;
+	background: white;
+}
+ol, ul {
+	list-style: none;
+}
+/* tables still need 'cellspacing="0"' in the markup */
+table {
+	border-collapse: separate;
+	border-spacing: 0;
+}
+caption, th, td {
+	text-align: left;
+	font-weight: normal;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: "";
+}
+blockquote, q {
+	quotes: "" "";
+}
+
+
+
+
+nav {
+    background-color: rgb(13, 122, 224);
+    height: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+    padding: 00px 10px 10px 10px;
+    margin: 5px;
+    
+}
+
+#logo {
+    width: 45px;
+    height: 45px;
+    background-color: rgb(13, 122, 224);
+    }
+
+a:link{
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    padding: 10px;
+    text-decoration: none;
+}
+
+a:visited{
+    font-size: 20px;
+    color: rgb(83, 193, 212);
+    padding: 10px;
+    text-decoration: none;
+}
+
+img {
+    width: 40px;
+    height: 40px;
+}
+
+main{
+    background-color: rgb(122, 192, 250);
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+}
+
+.central {
+    margin:20px 20px 20px 30% ;
+    text-align: center;
+    color: rgb(255, 255, 255);
+  }
+
+button{
+    background-color: rgb(197, 10, 10);
+    color: aliceblue;
+    margin: 15px;
+    border-radius: 5px;
+    box-shadow: 7px;
+    transition: 1s;
+  }
+
+button:hover{
+    background-color: rgb(14, 129, 158);
+    border-radius: 5px;
+    color: rgb(126, 236, 236);
+    box-shadow: 7px;
+    transition: 1s;
+  }
+
+h1{
+    font-size: 30px;
+    text-align: center;
+    color: rgb(250, 250, 250);
+    padding: 10px ;
+  }
+
+h2{
+    color: black;
+    font-size: 28px;
+    text-align: center;
+  }
+
+h4{
+    font-size: 20px;
+    text-align: center;
+  }
+
+h3{
+    font-size: 25px;
+    text-align: center;
+    color: rgb(5, 59, 177);
+}
+
+.bloc1 {
+    background-color: rgb(255, 255, 255);
+    width: 100%;s
+    height: 450px;
+    border-radius: 10px;
+    display: flex;
+    margin: 10px;
+    padding: 30px;
+    gap: 35px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.bloc1m {
+    width: 300px;
+    height: 200px;
+    background-color: rgb(239, 250, 252);
+    border-radius: 7px;
+    margin: 10px 10px 10px 10px;
+    -webkit-box-shadow: 13px 13px 11px 3px rgba(13, 116, 195, 0.2);
+    -moz-box-shadow: 13px 13px 11px 3px rgba(13, 116, 195, 0.2);
+    box-shadow: 13px 13px 11px 3px rgba(13, 116, 195, 0.2);
+    padding: 30px;
+}
+
+.block2{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 30px;
+    margin: 10px 10px 10px 10px;
+}
+
+.block2_small{
+    background-color: rgb(159, 197, 223);
+    width: 330px;
+    height: 200px;
+    border-radius: 5px;
+    background-color: rgb(81, 138, 192);
+    padding: 30px;
+    margin: 10p 10px 10px 10px;
+
+}
+
+.block3 {
+    background-color: rgb(255, 255, 255);
+    width: 95%;
+    height: 800px;
+    border-radius: 10px;
+    display: flex;
+    margin: 10px;
+    padding: 30px;
+    gap: 35px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+.dan {
+    width: 400px;
+    height: 75px;
+    background-color: rgb(172, 203, 250);
+    border-radius: 7px;
+    margin: 10px 10px 10px 10px;
+    padding: 30px;
+    display: flex;
+}
